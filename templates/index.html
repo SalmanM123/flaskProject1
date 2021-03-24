@@ -6,18 +6,16 @@
 </head>
 <body>
 
-<h1>friendship calculator</h1>
-<form>
-    name:
-    <input type="text"
-    name="name" size="20">
-    <br><br>
-    to:
-    <input type="text"name="to"
-    size="20">
+<h1>Welcome to the friendship calculator</h1>
+<h3>Enter 1st persons name and second persons name</h3>
+<form action="/" method="post">
 
+    1st persons name: <input name="name 1"> <br> <br>
+    2nd persons name: <input name="name 2"> <br> <br>
+    <button type="submit">Calculate</button>
 </form>
 
+<h1> {{ content }}</h1>
 
 </body>
 </html>
